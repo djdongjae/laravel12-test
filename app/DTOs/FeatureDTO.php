@@ -22,7 +22,7 @@ class FeatureDTO
             "fac_nam" => $feature->fac_nam,
             "fac_tel" => $feature->fac_tel,
             "cat_nam" => $feature->cat_nam,
-            "fac_o_add" => $feature->cat_nam,
+            "fac_o_add" => $feature->fac_o_add,
             "fac_n_add" => $feature->fac_n_add
         ];
         $this->id = $feature->feature_id;
